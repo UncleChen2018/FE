@@ -1,0 +1,80 @@
+* {
+    font-family: Helvetica;
+  }
+  
+
+
+   
+  h1 {
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    background-image: url(../img/pattern.jpeg);
+    text-align: center;
+  }
+   
+  h2 {
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .top-banner {
+    margin-top:0 ;
+  }
+
+  main {
+    margin-bottom: 67px;
+   
+  }
+
+  .green {
+    background-color: mediumspringgreen;
+  }
+  
+  .red {
+    background-color: coral;
+  }
+
+  .blue {
+    background-color: skyblue;
+  }
+
+  .item-price {
+    color:blue;
+    font-weight: bold;
+  }
+
+  .item-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .item-desc {
+    letter-spacing:0.5px;
+  }
+
+
+
+  footer *{
+    background-color: darkgrey;
+    font-family: sans-serif;
+    margin:0;
+  }
+
+  footer p, 
+  li {
+    font-size: 10px;
+  }
+  
+
+   
+  a {
+    text-decoration: none;
+    color:#b3ff50;
+  }
+
+  a:hover { 
+    color: lightblue;
+  }
+
