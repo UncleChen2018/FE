@@ -1,28 +1,89 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
   }
-   
+  
+  body {
+    background-color:gainsboro;
+  }
    
   h1 {
     color: SeaGreen;
+    text-align: center;
   }
-   
+  
+  h2 {
+    text-align: center;
+  }
+  .table-title {
+    color:darkorange;
+  }
     
-  p, 
-  li {
+  table {
+    margin: 0 auto 20px;
+    border: 5px double purple;
+    border-collapse: collapse;
+    width: 800px;
     font-size: 18px;
   }
-   
+
+  th, td {
+    border-top: 2px solid hotpink;
+    border-bottom: 2px solid hotpink;
+    border-left: 2px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+    padding: 1px;
+    margin: 1px;
+  }
+  
+
+  th {
+    background-color: plum;
+  }
+
+
+  .item {
+    padding-right: -5px;
+
+  }
+
+  code {
+    background-color: rgba(245, 245, 220, 0.8);
+    font-family: "Courier New", monospace;
+  }
+
+  .item-name {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 10px;
+
+  }
+
+  .item-desc {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 500;
+  }
+
+  footer *{
+    background-color: darkgrey;
+    font-family: sans-serif;
+    margin:0;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  footer p, 
+  li {
+    font-size: 10px;
+  }
+  
+
    
   a {
     text-decoration: none;
-    color:lightskyblue;
+    color:#b3ff50;
   }
 
   a:hover { 
-    color: #b3ff50;
-  }
-
-  a:visited {
-    color:burlywood;
+    color: lightblue;
   }
