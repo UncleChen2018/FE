@@ -69,12 +69,22 @@
   
 
    
-  a {
-    text-decoration: none;
-    color:#b3ff50;
-  }
+ /*should use th LVHA order, so the rules can correctly override*/ 
+ a:link {
+  text-decoration: none;
+  color:lightskyblue;
+}
 
-  a:hover { 
-    color: lightblue;
-  }
+a:visited {
+  color:burlywood;
+}
+
+a:hover { 
+  color: #b3ff50;
+}
+
+
+a:active { 
+  color: orange;
+}
 
