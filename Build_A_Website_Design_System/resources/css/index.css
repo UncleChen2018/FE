@@ -2,9 +2,13 @@
     font-family: Helvetica, Arial, sans-serif;
   }
    
-   
+  header, main, footer {
+    margin: 10px auto;
+    width:80%;
+  } 
+
   h1 {
-    color: SeaGreen;
+    color: black;
   }
    
     
@@ -12,7 +16,28 @@
   li {
     font-size: 18px;
   }
-   
+  
+  .container {
+    
+    border: 1px solid darkgrey;
+  }
+
+  footer *{
+    background-color: darkgrey;
+    font-family: sans-serif;
+    margin:0;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  footer p, 
+  li {
+    font-size: 10px;
+  }
+  
+
   
  /*should use th LVHA order, so the rules can correctly override*/ 
   a:link {
