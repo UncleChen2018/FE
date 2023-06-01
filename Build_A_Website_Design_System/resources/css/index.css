@@ -1,26 +1,128 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
-  }
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
    
+  }
+  
+  
   header, main, footer {
     margin: 10px auto;
     width:80%;
+    min-width:900px;
+    max-width: 1200px;
   } 
 
   h1 {
-    color: black;
+    font-size:32px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
   }
    
+  h2{
+    font-size:24px;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+   
+  }
     
+  .container .title {
+    font-size:30px;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px darkgrey;
+  }
+
   p, 
   li {
-    font-size: 18px;
+    font-size: 14px;
+    font-weight:400;
+    font-family: 'Poppins', sans-serif;
+    
   }
   
   .container {
-    
     border: 1px solid darkgrey;
+    padding-left: 10px;
+    margin-bottom: 30px;
+   
   }
+
+  .color-panel {
+    display: inline-block;
+    width: 30%;  
+    text-align: center; 
+    padding: 10px 0;
+    margin: 5px;
+    box-shadow:5px 5px 4px 1px gainsboro;
+  }
+
+  .color-panel p{
+    font-family: 'Nunito Sans', sans-serif;
+    vertical-align: middle;
+  }
+  
+  .blue {
+    background-color: #6495ed;
+    color:white;
+  }
+  
+  .pink {
+    background-color: #ffc0cb;
+    color:black;
+  }
+
+  .green {
+    background-color:#66cdaa;
+    color:white;
+  }
+
+  .brown {
+    background-color: #ffefd5;
+    color:black;
+  }
+
+
+  .font-panel {
+    display: inline-block;
+    width: 30%;  
+    padding: 10px 0;
+    margin: 5px;
+  }
+
+  .font-panel p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height:14px;
+  }
+
+  .font-panel h2{
+    text-decoration: underline;
+    line-height: 24px;
+  }
+
+  .code-font h2, .code-font p {
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .headline-font h2,.headline-font p{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .sub-title-font h2, .sub-title-font p{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  p.bold-font{
+    font-weight: bold;
+  }
+
+  p.italic-font {
+    font-style: italic;
+  }
+  
 
   footer *{
     background-color: darkgrey;
@@ -30,6 +132,8 @@
 
   footer {
     margin-top: 50px;
+    min-width:900px;
+    max-width: 1200px;
   }
 
   footer p, 
