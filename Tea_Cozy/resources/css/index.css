@@ -1,0 +1,35 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+   
+   
+  h1 {
+    color: SeaGreen;
+  }
+   
+    
+  p, 
+  li {
+    font-size: 18px;
+  }
+   
+  
+ /*should use th LVHA order, so the rules can correctly override*/ 
+  a:link {
+    text-decoration: none;
+    color:lightskyblue;
+  }
+
+  a:visited {
+    color:burlywood;
+  }
+
+  a:hover { 
+    color: #b3ff50;
+  }
+
+
+  a:active { 
+    color: orange;
+  }
+ 
