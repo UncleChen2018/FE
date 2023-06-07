@@ -3,11 +3,70 @@
   body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
-    color:seashell;
+    color:hsl(25, 100%, 97%);
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    padding:0;
+    margin:0;
+  }
+
+  header {
+    margin: 0;
+    position: fixed;
+    top:0;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
     background-color: black;
     opacity: 0.9;
   }
 
+  .nav-logo {
+    height: 50px;
+    margin-left: 10px;
+    filter:hue-rotate(25deg) saturate(100%) brightness(97%)
+  }
+
+  .nav-right li{
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  .nav-right li::after{
+    content: '';
+    width: 10px;
+  }
+  
+  
+  .nav-right a{
+    color:seashell;
+    text-decoration: underline;
+    line-height: 50px;
+  }
+
+
+  main {
+    position: relative;
+    top: 70px;
+  }
+  
+  
+
+  #mission {
+    background-image: url('../img/img-mission-background.jpg');
+    width: 1200px;
+    height: 700px;
+  }
+  
 
 
    
@@ -20,32 +79,32 @@
   footer {
     margin-top: 50px;
     min-width:900px;
-    max-width: 1200px;
+ 
   }
 
   footer p, 
-  li {
+  footer li {
     font-size: 10px;
   }
   
 
   
  /*should use th LVHA order, so the rules can correctly override*/ 
-  a:link {
+  footer a:link {
     text-decoration: none;
     color:lightskyblue;
   }
 
-  a:visited {
+  footer a:visited {
     color:burlywood;
   }
 
-  a:hover { 
+  footer a:hover { 
     color: #b3ff50;
   }
 
 
-  a:active { 
+  footer a:active { 
     color: orange;
   }
  
