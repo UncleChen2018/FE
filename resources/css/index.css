@@ -3,16 +3,24 @@
   }
    
    
-  h1 {
-    color: SeaGreen;
+  footer *{
+    background-color: darkgrey;
+    font-family: sans-serif;
+    margin:0;
   }
-   
-    
-  p, 
+
+  footer {
+    margin-top: 50px;
+    min-width:900px;
+    max-width: 1200px;
+  }
+
+  footer p, 
   li {
-    font-size: 18px;
+    font-size: 10px;
   }
-   
+  
+
   
  /*should use th LVHA order, so the rules can correctly override*/ 
   a:link {
@@ -32,4 +40,5 @@
   a:active { 
     color: orange;
   }
+ 
  
