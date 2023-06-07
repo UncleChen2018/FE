@@ -1,4 +1,10 @@
-  
+  * {
+    font-family: Helvetica, Arial, sans-serif;
+    color:hsl(25, 100%, 97%);
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+  }
   
   body {
     font-family: Helvetica, Arial, sans-serif;
@@ -8,7 +14,8 @@
     opacity: 0.9;
     text-align: center;
     padding:0;
-    margin:0;
+    min-width: 1200px;
+    margin: 0;
   }
 
   header {
@@ -17,6 +24,7 @@
     top:0;
     height: 69px;
     width: 100%;
+    border: none;
     border-bottom: 1px solid seashell;
     display: flex;
     justify-content: space-between;
@@ -32,12 +40,18 @@
     filter:hue-rotate(25deg) saturate(100%) brightness(97%)
   }
 
+  .nav-right UL{
+    margin: 0;
+  }
+ 
+
   .nav-right li{
     display: inline-block;
     vertical-align: middle;
     height: 50px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 0;
   }
 
 
@@ -57,29 +71,107 @@
   main {
     position: relative;
     top: 70px;
+    margin: 0 auto;
+    padding-bottom: 1px;
   }
   
+  section {
+    margin: 0 auto;
+  }
   
 
   #mission {
     background-image: url('../img/img-mission-background.jpg');
     width: 1200px;
     height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
+  #featured {
+    width: 1000px;
+    padding-top: 60px;  /*avoid margin collapse*/
+    padding-bottom: 60px;
+  }
+
+  .img-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+  }
+
+  .img-content figure{
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 
 
+  
+
+  .img-content img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+
+  }
+
+  #locations {
+    background-image: url('../img/img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #locations h2{
+    background-color: transparent;
+  }
+
+  .card-container {
+    background-color: transparent;
+  }
+
+  .card {
+    display: inline-flex;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    align-content: space-between;
+  }
+ 
+  .intro {
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h5.mark{
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
    
   footer *{
     background-color: darkgrey;
     font-family: sans-serif;
     margin:0;
+    text-align: left;
   }
 
   footer {
     margin-top: 50px;
     min-width:900px;
- 
+    border-top: 1px solid transparent;
+    padding-top: 1px;
   }
 
   footer p, 
@@ -96,7 +188,7 @@
   }
 
   footer a:visited {
-    color:burlywood;
+    color:rgb(235, 76, 13);
   }
 
   footer a:hover { 
